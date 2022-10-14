@@ -17,6 +17,32 @@ display: flex;
 align-items: center;
 }
 
+#rosa{
+    position: absolute;
+    width: 370px;
+    height: 700px;
+    left: 976px;
+    top: 0px;
+    z-index: -1;
+}
+
+#mesa{
+    position: absolute;
+    width: 568px;
+    height: 577px;
+    left: 780px;
+    top: 165px;
+}
+
+#flor{
+    position: absolute;
+    width: 382px;
+    height: 382px;
+    left: 720px;
+    top: 400px;
+    z-index: -1;
+}
+
 #menu{
     display: flex;
     align-items: center;
@@ -50,4 +76,46 @@ align-items: center;
     margin-left: 24px;
     height: 20px;
     display: block;
+}
+
+.text{
+    width: 504px;
+    height: 376px;
+    position: absolute;
+    top: 217px;
+    left: 102px;
+}
+
+.text0{
+    left: 10px; 
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+.text02{
+    left: 10px; 
+    top: 100px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 72px; 
+    line-height: 98px; 
+    color: #313235;
+}
+
+.boton2{
+    position: absolute;
+    top: 543px;
+    left: 102px;
+    padding: 14px 24px 14px 24px;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    background: #DAA520;
+    border-radius: 4px;
 }
